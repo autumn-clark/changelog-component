@@ -1,0 +1,45 @@
+*{
+    font-family: "Host Grotesk", sans-serif;
+    margin: 10px;
+}
+
+header{
+    text-align: center;
+}
+
+.changelog{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.dates{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    color: gray;
+}
+
+.descriptions{
+    display: flex;
+    flex-direction: column;
+}
+
+.circles{
+    position: relative;
+    width: 2px;
+    height: 300px;
+    background-color: black;
+}
+
+.circle{
+    position: relative;
+    width: 10px;
+    height: 10px;
+    background-color: black;
+    border-radius: 100%;
+    left: -4px;
+    top: 16px;
+    margin: 0;
+    margin-bottom: 31px;
+}
